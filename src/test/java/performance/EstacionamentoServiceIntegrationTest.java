@@ -1,4 +1,4 @@
-package service;
+package performance;
 
 import model.PerfilUsuario;
 import model.Ticket;
@@ -8,6 +8,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import repository.EstacionamentoRepository;
 import repository.InMemoryEstacionamentoRepository;
+import service.CalculadoraTarifa;
+import service.EstacionamentoService;
 
 import java.time.LocalDateTime;
 
